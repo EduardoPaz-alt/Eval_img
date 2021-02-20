@@ -91,7 +91,7 @@ def build_sidebar(conn: Connection):
 
 #def run_file(conn: Connection):
 
-tweetdf = pd.read_csv('d:\\OpenLabs\\MemesNelly\\tabladogs.csv')
+tweetdf = pd.read_csv('tabladogs.csv')
 tweetdf = pd.DataFrame(tweetdf)
 #st.write(tweetdf)
 
