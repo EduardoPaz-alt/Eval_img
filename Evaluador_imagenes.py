@@ -12,7 +12,7 @@ from sqlite3 import Connection
 warnings.filterwarnings('ignore')
 #from session_state import SessionState
 import SessionState
-from streamlit.ScriptRunner import StopException, RerunException
+#from streamlit.ScriptRunner import StopException, RerunException
 
 ################ Evaluador
 
