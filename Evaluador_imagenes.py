@@ -67,7 +67,7 @@ def build_sidebar(conn: Connection):
     else:
         input2 = 8
     
-    input4 = st.sidebar.radio("Calificador:", ('AnaLee', 'Angel', 'Eduardo', 'Eloy', 'Mariel', 'Nelly', 'Paola'))
+    input4 = st.sidebar.radio("Calificador:", ('AnnaLee', 'Angel', 'Eduardo', 'Eloy', 'Mariel', 'Nelly', 'Paola'))
     if input4 == 'AnaLee':
         input4 = 1
     elif input4 == 'Angel':
