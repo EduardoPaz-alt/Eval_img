@@ -18,8 +18,8 @@ import SessionState
 
 URI_SQLITE_DB = "test_img.db"
 def main():
-    st.title("Evaluación")
-    st.write("Califica y no olvides salvar tus datos")
+    st.title("Explorador de memes y emociones")
+    st.write("Selecciona y no olvides salvar tus datos")
     
     conn = get_connection(URI_SQLITE_DB)
     init_db(conn)
